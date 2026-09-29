@@ -2,137 +2,230 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Boss Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rajiv's Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    
-    <h1>Rajiv Thapa Magar</h1>
+<div class="container">
 
-    
-    <h2>Chief Executive Officer (CEO)</h2>
+    <header>
+        <h1>Rajiv Thapa Magar</h1>
+        <p>Web Developer | UI/UX Designer</p>
 
-    <hr>
+        <nav>
+            <a href="#introduction">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-    
-    <h3>Navigation</h3>
+    <main>
 
-    <a href="#introduction">Introduction</a> |
-    <a href="#experience">Experience</a> |
-    <a href="#skills">Skills</a> |
-    <a href="#projects">Projects</a> |
-    <a href="#video">YouTube Video</a>
+        <section id="introduction">
+            <h2>Introduction</h2>
 
-    <hr>
+            <p>
+                Hello! I am a passionate web developer who enjoys creating
+                modern, responsive, and user-friendly websites. I have
+                experience working with HTML, CSS, JavaScript, and other
+                technologies. My goal is to develop creative digital
+                solutions and continuously improve my technical skills.
+            </p>
+        </section>
 
-    
-    <h2 id="introduction">Introduction</h2>
+        <figure class="profile">
+            <img
+                src="https://goku.png/profile.jpg"
+                alt="Professional profile portrait">
 
-    <p>
-        Hello! My name is <b>Rajiv Thapa Magar</b>, and I am a
-        <i>dedicated business leader</i> with experience in technology,
-        management, and entrepreneurship. I believe in
-        <u>continuous learning and professional growth</u>.
-        
-        My main goal is to create <mark>innovative solutions</mark>
-        and build successful businesses. I also enjoy working with
-        modern technology and helping my team achieve its goals.
+            <figcaption>
+                Passionate about technology, creativity, and innovation.
+            </figcaption>
+        </figure>
 
-        I have completed projects related to H<sub>2</sub>O systems
-        and have worked with technologies that can improve business
-        efficiency by 10<sup>2</sup>%.
-    </p>
+        <section id="experience">
+            <h2>Professional Experience</h2>
 
+            <div class="experience-item">
+                <h3>Junior Web Developer</h3>
+                <p>ABC Technologies | 2024 - Present</p>
+                <p>Developing responsive websites using HTML, CSS, and JavaScript.</p>
+            </div>
 
-    <figure>
-        <img src="Boss.jpg" alt="Boss Image" width="300">
-        <figcaption>I'm pretty</figcaption>
-    </figure>
+            <div class="experience-item">
+                <h3>UI/UX Design Intern</h3>
+                <p>Creative Studio | 2023 - 2024</p>
+                <p>Designed user-friendly interfaces and website prototypes.</p>
+            </div>
 
-    <hr>
+            <div class="experience-item">
+                <h3>Freelance Web Designer</h3>
+                <p>Self-employed | 2022 - 2023</p>
+                <p>Created personal portfolios and websites for clients.</p>
+            </div>
 
-    
-    <h2 id="experience">Experience</h2>
+            <div class="experience-item">
+                <h3>IT Support Assistant</h3>
+                <p>XYZ Solutions | 2021 - 2022</p>
+                <p>Assisted with basic troubleshooting and technical support.</p>
+            </div>
+        </section>
 
-    <ol>
-        <li>Chief Executive Officer – ABC Private Company</li>
-        <li>Project Manager – XYZ Technology</li>
-        <li>Business Development Manager – Tech Solutions</li>
-        <li>Software Developer – Digital Solutions</li>
-        <li>Team Leader – Innovation Group</li>
-    </ol>
+        <section id="skills">
+            <h2>Technical Skills</h2>
 
-    <hr>
+            <table>
+                <tr>
+                    <th>Skill</th>
+                    <th>Proficiency</th>
+                    <th>Experience</th>
+                </tr>
 
-    
-    <h2 id="skills">Skills</h2>
+                <tr>
+                    <td>HTML</td>
+                    <td>Advanced</td>
+                    <td>3 Years</td>
+                </tr>
 
-    <table border="1" cellpadding="10">
-        <tr>
-            <th>Skills</th>
-            <th>Years</th>
-        </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Advanced</td>
+                    <td>3 Years</td>
+                </tr>
 
-        <tr>
-            <td>Leadership</td>
-            <td>8 Years</td>
-        </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediate</td>
+                    <td>2 Years</td>
+                </tr>
 
-        <tr>
-            <td>Business Management</td>
-            <td>7 Years</td>
-        </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Intermediate</td>
+                    <td>2 Years</td>
+                </tr>
 
-        <tr>
-            <td>Project Management</td>
-            <td>6 Years</td>
-        </tr>
+                <tr>
+                    <td>UI/UX Design</td>
+                    <td>Intermediate</td>
+                    <td>1 Year</td>
+                </tr>
+            </table>
+        </section>
 
-        <tr>
-            <td>Web Development</td>
-            <td>5 Years</td>
-        </tr>
+        <section id="projects">
+            <h2>My Projects</h2>
 
-        <tr>
-            <td>Communication</td>
-            <td>9 Years</td>
-        </tr>
-    </table>
+            <div class="project-container">
 
-    <hr>
+                <div class="project-card">
+                    <h3>Personal Portfolio</h3>
+                    <p>
+                        A responsive portfolio website showcasing
+                        professional skills, experience, and projects.
+                    </p>
+                    <p><strong>Technologies:</strong> HTML, CSS</p>
+                </div>
 
-    
-    <h2 id="projects">Projects</h2>
+                <div class="project-card">
+                    <h3>CafeHub</h3>
+                    <p>
+                        A desktop cafe ordering application that allows
+                        customers to browse menus and manage orders.
+                    </p>
+                    <p><strong>Technologies:</strong> Python, Tkinter, SQLite</p>
+                </div>
 
-    <ul>
-        <li>Company Portfolio Website</li>
-        <li>Online Shopping System</li>
-        <li>Employee Management System</li>
-        <li>Customer Relationship Management System</li>
-        <li>Business Analytics Dashboard</li>
-    </ul>
+                <div class="project-card">
+                    <h3>Pet Adoption System</h3>
+                    <p>
+                        A system designed to connect people with pets
+                        available for adoption.
+                    </p>
+                    <p><strong>Technologies:</strong> Java, MySQL</p>
+                </div>
 
-    <hr>
+            </div>
+        </section>
 
-    
-    <h2 id="video">YouTube Video</h2>
+        <section id="video">
+            <h2>Featured Video</h2>
 
-    <p>Here is a video about entrepreneurship:</p>
+            <div class="video-container">
+                <iframe
+                    src="https://www.youtube.com/embed/UB1O30fR-EE"
+                    title="HTML Web Development Tutorial"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
 
-    <iframe 
-        width="560" 
-        height="315"
-        src="https://www.youtube.com/embed/mP0s5s0i20E"
-        title="YouTube Video"
-        allowfullscreen>
-    </iframe>
+        <section id="contact">
+            <h2>Contact Me</h2>
 
-    <hr>
+            <form action="#" method="post">
 
-    <p>
-    
-    </p>
+                <label for="name">Full Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required>
+
+                <label for="email">Email Address:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required>
+
+                <label for="phone">Phone Number:</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                    required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                    <option value="prefer-not-to-say">Prefer not to say</option>
+                </select>
+
+                <label for="role">Role:</label>
+                <select id="role" name="role" required>
+                    <option value="">Select Role</option>
+                    <option value="student">Student</option>
+                    <option value="developer">Developer</option>
+                    <option value="designer">Designer</option>
+                    <option value="employer">Employer</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <button type="submit">Submit Form</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+    </footer>
+
+</div>
 
 </body>
 </html>
